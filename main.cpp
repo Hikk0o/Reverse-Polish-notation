@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <stack>
 #include <string>
 #include <vector>
@@ -114,10 +114,7 @@ int main()
 						symbol += steck.top();
 						outStr.push_back(symbol);
 						steck.pop();
-						if (steck.size() == 0)
-						{
-							break;
-						}
+						if (steck.size() == 0) break;
 					}
 					steck.push(str[a]);
 				}
